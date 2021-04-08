@@ -18,8 +18,4 @@ from django.urls import path,include
 
 urlpatterns = [
     path('',include('myntraHackathon.url')),
-    
-    # path('',include('travello.url')),
-    # path('',include('calc.url')),
-    # path('admin/', admin.site.urls),
 ]
